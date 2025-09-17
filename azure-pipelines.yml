@@ -1,0 +1,9 @@
+﻿trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Hello, Azure Pipelines!
+  displayName: 'Say hello'
